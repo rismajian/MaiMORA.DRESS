@@ -11,25 +11,29 @@ Website gamis muslimah Gen Z dengan konsep **modest Islamic campus girl**:
 - responsive
 - floating WhatsApp 085775252919
 
-Template WhatsApp:
-HAI KAK, MAU DRESS MUSLIMAH......
+Template WhatsApp:  
+`HAI KAK, MAU DRESS MUSLIMAH......`
+
+**Live site:** https://maimora.my.id/
 
 ## GitHub Pages
-Upload `index.html`, `style.css`, `script.js` ke repository GitHub.
-Settings → Pages → Deploy from a branch → `main` → `/ (root)` → Save.
+Upload ke repository GitHub.  
+Settings → Pages → Deploy from a branch → `main` → `/ (root)` → Save.  
+Custom domain sudah di-set lewat file `CNAME` (`maimora.my.id`).
 
-
-## Gambar referensi
-File `assets/gamis-reference.png` adalah gambar yang kamu upload dan sudah dibundel ke website.
-
+## SEO Files (sudah ditambahkan)
+- `robots.txt` — mengizinkan semua crawler + menunjuk sitemap
+- `sitemap.xml` — sitemap utama
+- `site.webmanifest` — PWA / home screen
+- `assets/og-image.jpg` — Open Graph image (1200×630)
+- Favicon lengkap: `favicon.svg`, `favicon.ico`, `favicon-16x16.png`, `favicon-32x32.png`, `assets/apple-touch-icon.png`
+- Meta tags lengkap + Structured Data (JSON-LD) di `index.html`
 
 ## Produk
-Semua 7 foto produk yang kamu kirim sudah disimpan di folder `assets/`, jadi website tidak bergantung pada URL gambar eksternal.
-
+Semua foto produk disimpan di folder `assets/`.
 
 ### Produk terbaru
-Lima produk lama diganti dengan lima foto produk terbaru yang diupload pengguna: Noor Chocolate Abaya, Haya Black Abaya, Safa Midnight Gamis, Maira Dusty Rose Gamis, dan Sarah Maroon Gamis.
-
+Noor Chocolate Abaya, Haya Black Abaya, Safa Midnight Gamis, Maira Dusty Rose Gamis, Sarah Maroon Gamis, dan **Sakeena Cotton Denim**.
 
 ## Red & Gold Edition
-Website ini memakai identitas visual baru **Merah & Emas** dan menambahkan produk **Sakeena Cotton Denim** dari gambar yang kamu upload.
+Identitas visual **Merah & Emas**.

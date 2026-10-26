@@ -1,0 +1,17 @@
+# robots.txt for MaiMORA — Modest Islamic Campus
+# https://maimora.my.id/
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://maimora.my.id/sitemap.xml
+
+# Disallow temporary or internal folders if any
+Disallow: /hotlink/
+Disallow: /MaiMORA_AutoScroll_2Detik/
+Disallow: /*.zip$
+Disallow: /v1*
+
+# Crawl-delay (optional, most modern bots ignore)
+Crawl-delay: 1
