@@ -36,3 +36,9 @@ Nomor admin yang tertanam: 0857-7525-2919. Template pesan: `HAI KAK, MAU DRESS M
 
 ## Catatan tren
 Topik artikel dipilih berdasarkan relevansi tren modest fashion 2026 yang diberitakan media dan tren produk kategori. Ini bukan data volume pencarian langsung atau jaminan ranking. Verifikasi performa setelah publikasi menggunakan Google Search Console dan Google Trends.
+
+
+## Optimasi performa lanjutan
+- Menghapus ketergantungan font eksternal Google Fonts pada halaman utama dan artikel agar mengurangi permintaan jaringan pihak ketiga. Tipografi menggunakan font sistem sebagai fallback cepat.
+- Memprioritaskan preload gambar hero dan memuatnya secara eager agar browser lebih cepat menemukan elemen LCP.
+- Skor PageSpeed tetap harus diuji ulang setelah publikasi; skor 100 tidak dapat dijamin karena dipengaruhi kondisi pengujian dan jaringan.
