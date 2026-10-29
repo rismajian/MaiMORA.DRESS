@@ -8,23 +8,23 @@ Website gamis muslimah Gen Z dengan konsep modest Islamic campus: koleksi, style
 - Menambahkan title/meta description, canonical, Open Graph, alt text, favicon SVG, dan Article JSON-LD.
 - Memperbarui `robots.txt` dan `sitemap.xml`.
 - Memperbaiki fallback gambar agar menggunakan aset yang memang ada di ZIP.
+- Mengonversi foto produk PNG ke WebP untuk mengurangi ukuran transfer.
+- Menambahkan lazy loading pada gambar di bawah lipatan halaman, prioritas tinggi pada gambar hero, serta atribut dimensi gambar untuk mengurangi layout shift.
+- Mengganti URL canonical, Open Graph, robots, dan sitemap ke domain `https://maimora.my.id/` berdasarkan alamat yang diuji di PageSpeed Insights.
 - Menyertakan `SEO-CHECKLIST.md` berisi 7 langkah SEO yang diterapkan.
 
-## PENTING: atur URL website sebelum publish
-Cari dan ganti `USERNAME` serta `REPOSITORY` di file berikut dengan alamat GitHub Pages yang sebenarnya:
-- `index.html`
-- semua file dalam folder `artikel/`
-- `robots.txt`
-- `sitemap.xml`
+## PENTING: URL dan domain
+Revisi ini dikonfigurasi untuk domain `https://maimora.my.id/` sesuai alamat yang diuji. Pastikan domain tersebut memang domain produksi website kamu. Jika deploy ke domain lain, sesuaikan canonical, Open Graph URL, `robots.txt`, `sitemap.xml`, dan URL JSON-LD sebelum dipublikasikan.
 
-Contoh format URL GitHub Pages: `https://username.github.io/nama-repository/`. Jika memakai custom domain, ganti dengan domain tersebut. Sitemap harus memakai URL absolut yang benar.
+## Deploy
+1. Buat salinan cadangan website yang saat ini aktif.
+2. Ekstrak ZIP ini.
+3. Unggah/ganti file website dengan seluruh isi ZIP, termasuk folder `assets/` dan `artikel/`.
+4. Pastikan file `.webp` ikut terunggah dan URL domain sesuai.
+5. Buka kembali website, lalu jalankan PageSpeed Insights untuk Mobile dan Desktop.
+6. Buka bagian Insights/Peluang setelah tes dan bandingkan hasilnya. Skor tidak dijamin mencapai angka tertentu karena dipengaruhi kondisi jaringan, perangkat simulasi, server, dan skrip pihak ketiga.
 
-## Deploy ke GitHub Pages
-1. Ekstrak ZIP.
-2. Ganti placeholder URL seperti petunjuk di atas.
-3. Unggah seluruh isi folder ke root repository (termasuk folder `assets/` dan `artikel/`).
-4. Buka **Settings → Pages**, pilih branch utama dan folder `/ (root)`, lalu simpan.
-5. Setelah website online, kirim `sitemap.xml` ke Google Search Console untuk membantu proses penemuan halaman.
+Catatan: pengaturan cache browser bergantung pada hosting/server. Jika hosting tidak mengizinkan konfigurasi header cache, perubahan `robots.txt` atau HTML saja tidak dapat memperbaiki header cache. Untuk audit yang lebih rinci, buka setiap baris peringatan PageSpeed dan ikuti URL/resource yang ditunjukkan.
 
 ## Artikel
 1. `artikel/outfit-gamis-untuk-kuliah.html`
